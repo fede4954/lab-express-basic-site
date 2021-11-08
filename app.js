@@ -5,7 +5,7 @@ app.use(express.static(__dirname + '/public'))
 
 //Routes
 app.get('/', (_, response) => {
-    response.sendFile('index.html')
+    response.sendFile(__dirname + '/views/index.html')
 })
 
 app.get('/about', (_, response) => {
