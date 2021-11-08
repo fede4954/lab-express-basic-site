@@ -3,7 +3,15 @@
     padding: 0;
 }
 
-body{
+.white{
+    color: white;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.index{
     background-image: url("index.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,10 +23,6 @@ body{
 	justify-content: center;
 	align-items: center;
     height: 100vh;
-}
-
-.white{
-    color: white;
 }
 
 h1{
@@ -36,11 +40,9 @@ hr{
 
 a{
     text-decoration: none;
-    background-color: black;
     font-size: 25px; 
     padding: 10px;
     border: 1px white solid;
-    color: white;
     margin: 0px 15px;
 }
 
@@ -48,4 +50,18 @@ a:hover{
     background-color: white;
     border: 1px black solid;
     color: black;
+}
+
+h2{
+    font-size: 75px;
+    padding: 15px;
+}
+
+.about{
+    margin-top: 15px;
+}
+
+p{
+    padding: 15px;
+    font-size: 20px;
 }
